@@ -5,7 +5,7 @@ const Items = ({items, removeItem}) => {
   return (
     <div className='items'>
      {items.map((item) => {
-      return <SingleItem item={item} removeItem={removeItem}/>
+      return <SingleItem item={item} removeItem={removeItem} />
      })}
     </div>
   )
